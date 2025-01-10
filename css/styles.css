@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4faf4c;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4551a0;
+}
+
+#progress-bar-container {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+#progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    transition: width 0.3s;
+}
+
+#progress {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.box{
+    width: 50%;
+    align-self: center;
+    padding: 5%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.register-page {
+    background-image: url('https://c0.wallpaperflare.com/preview/386/354/385/analysis-hospital-doctor-medical.jpg'); 
+}
+
+
+.login-page {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/397/654/507/medic-heartbeat-cross-wallpaper-preview.jpg'); 
+}
+
+
+.therapy-page {
+    background-image: url('https://c0.wallpaperflare.com/preview/685/967/619/healthy-lifestyle-meditating-nature.jpg'); 
+}
+
+
+.breathing-page {
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/354/300/837/texture-simple-background-gradient-dark-wallpaper-7919d43712a27d682f32d1430026d0bb.jpg');
+}
+
+
+.progress-container {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #31e937;
+    height: 20px;
+    border-radius: 5px;
+    width: 0;
+}
+
+
+.breathing-container {
+    text-align: center;
+    color: #ffffff;
+}
+
+.breathing-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.breathing-container p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
